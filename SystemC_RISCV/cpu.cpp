@@ -44,7 +44,8 @@ SC_MODULE (cpu) {
     J-type: unconditional jumps, a variation of U-type
     */
 
-  sc_bv<7>  R_type_opcode = "1001111";
+  //sc_bv<7>  R_type_opcode = "1001111";
+  sc_bv<7>  R_type_opcode = "0110011";
   sc_bv<7>  I_type_opcode = "1101111";
   sc_bv<7>  S_type_opcode = "0100011";
   sc_bv<7>  B_type_opcode = "1100011";
